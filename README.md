@@ -34,13 +34,13 @@ b) Ler (Listar alunos)
      - A lógica de leitura e exibição dos alunos cadastrados foi implementada.
    - Conformidade: Sim, foi implementada a funcionalidade de leitura e listagem de alunos.
 
-c) **Atualizar (Editar informações de um aluno)
+c) Atualizar (Editar informações de um aluno)
    - Mudança Realizada:
      - Um formulário foi criado no arquivo `edit.php` para editar os dados de um aluno existente.
      - A lógica para atualizar os dados foi implementada no arquivo `update.php`.
    - Conformidade: Sim, a atualização dos dados foi implementada conforme o pedido.
 
-d) **Excluir (Deletar um aluno)
+d) Excluir (Deletar um aluno)
    - Mudança Realizada: 
      - A funcionalidade de exclusão foi implementada no arquivo `delete.php`, que exclui alunos pelo `id` fornecido.
      - Botões de exclusão foram adicionados à página de listagem.
@@ -52,7 +52,7 @@ d) **Excluir (Deletar um aluno)
    - Proteção contra SQL Injection: Implementada usando prepared statements nas consultas SQL, o que previne ataques de SQL Injection.
    - Conformidade: Sim, todos os testes das operações CRUD foram realizados com sucesso, incluindo validações de campos e proteção contra SQL Injection.
 
-6. **Melhores Opções
+6. Melhores Opções
    - Mudança Realizada:
      - O campo `email` foi validado para garantir que seja único e esteja no formato correto.
      - As verificações para garantir a unicidade do `uuid` e da `matricula` foram implementadas no banco de dados e no código PHP.
